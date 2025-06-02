@@ -35,7 +35,6 @@ Flag Quiz, kullanıcıların dünya bayrakları hakkındaki bilgilerini test ede
 * **Önemli Paketler (Dependencies):**
     * `easy_localization`: Uluslararasılaştırma ve yerelleştirme için.
     * `flutter_svg`: SVG formatındaki bayrak resimlerini render etmek için.
-    * `google_mobile_ads`: Google AdMob reklamlarını göstermek için.
     * `assets_audio_player`: Ses efektlerini çalmak için.
     * `font_awesome_flutter`: İkonlar için.
     * `url_launcher`: URL'leri açmak için (örn. iletişim bağlantıları).
@@ -58,37 +57,6 @@ Proje standart bir Flutter proje yapısını takip eder:
     * `sounds/`: Ses efektleri için ses dosyalarını içerir.
 * `android/`, `ios/`, `linux/`, `macos/`, `web/`, `windows/`: Platforma özgü yapılandırma ve kodları içerir.
 
-## Başlarken
-
-Bu proje, bir Flutter uygulaması için bir başlangıç noktasıdır.
-
-Bu ilk Flutter projenizse başlamanıza yardımcı olacak birkaç kaynak:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-Flutter geliştirmeye başlama konusunda yardım için, eğitimler, örnekler, mobil geliştirme rehberliği ve tam API referansı sunan [çevrimiçi belgelere](https://docs.flutter.dev/) göz atın.
-
-## Projeyi Derleme ve Çalıştırma
-
-1.  Flutter SDK'nın kurulu ve yapılandırılmış olduğundan emin olun.
-2.  Depoyu klonlayın:
-    ```bash
-    git clone <repository-url>
-    ```
-3.  Proje dizinine gidin:
-    ```bash
-    cd flag_quiz
-    ```
-4.  Bağımlılıkları alın:
-    ```bash
-    flutter pub get
-    ```
-5.  Uygulamayı çalıştırın:
-    ```bash
-    flutter run
-    ```
-
 ## Android'e Özgü Yapılandırma
 
 * **İnternet İzni:** Uygulama, reklamlar ve potansiyel olarak diğer ağ istekleri için internet izni gerektirir. Bu, `AndroidManifest.xml` dosyasında beyan edilmiştir.
@@ -105,5 +73,3 @@ Uygulama, çevirileri yönetmek için `easy_localization` paketini kullanır. Ç
 Uygulama içindeki "İletişim" bölümünden ulaşabilirsiniz; bu bölüm Google Play Store'u, geliştiricinin web sitesini ziyaret etme veya `yelbegensoftware@gmail.com` adresine e-posta gönderme seçeneklerini içerir.
 
 ---
-
-*Bu README, sağlanan proje dosyalarına dayanarak oluşturulmuştur.*
